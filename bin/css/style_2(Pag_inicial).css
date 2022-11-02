@@ -16,6 +16,14 @@ header{
     border-bottom: 1px solid #492e45;
 }
 
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 100%;
@@ -26,12 +34,6 @@ h1{
 h1:hover{
     text-decoration: underline;
     transform: scale(110%);
-}
-
-main{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
 }
 
 .menu_icon{
@@ -51,8 +53,6 @@ main{
 .menu_icon_header:hover{
     transform: scale(110%)
 }
-
-  
 
 .JukeBOX {
     position: absolute;
@@ -74,8 +74,83 @@ main{
     transition: 0.5s;
     
     
-  }
+}
 
-  .JukeBOX:hover{
-        transform: scale(110%)
-  }
+.JukeBOX:hover{
+    transform: scale(110%)
+}
+
+.publicacao{
+    background-color: #2B292B;
+    font-family: 'Montserrat', sans-serif;
+    padding: 2%;
+    border-right: solid 5px #FF75EA;
+}
+
+.nome_usuario{
+    color: #ffffff;
+    margin: 0;
+}
+
+.identificador_usuario{
+    color: #cf4a91;
+    margin: 0;
+}
+
+.identificador_usuario:hover{
+    text-decoration: underline;
+}
+
+.fotoPerfil_usario{
+    width: 8%;
+    border-radius: 3px;
+}
+
+.perfil_autor_publicacao{
+    display: flex;
+    flex-direction: row;
+}
+
+.credenciais{
+    font-size: 70%;
+    margin-left: 1.5%;
+}
+
+.publicacao_conteudo{
+    background-color: #141313;
+    padding: 1% 3.5% 3.5% 3.5%;
+    margin: 2.5%;
+    border-radius: 5px;
+}
+.music_cover_publicacao{
+    width: 20%;
+    border-radius: 3px;
+}
+.comentario_do_usuario{
+    color: #ffffff;
+}
+.pseudo_estrelas{
+    color: #ffffff;
+}
+.informações_artista{
+    color: #ffffff;
+    margin-left: 2.5%;
+}
+.musica_publicacao{
+    display: flex;
+    flex-direction: row;
+}
+
+.Nome_artista{
+    font-size: 150%;
+    margin: 0 0 10% 0;
+}
+.Nome_musica{
+    font-size: 90%;
+    margin: 0 0 0 0;
+}
+.Nome_album{
+    font-size: 90%;
+    margin: 0 0 0 0;
+}
+
