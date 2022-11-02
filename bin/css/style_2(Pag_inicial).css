@@ -3,6 +3,9 @@ html, body{
     width: 100%;
     background: rgb(55,0,39);
     background: linear-gradient(0deg, rgb(23, 0, 29) 0%, rgb(24, 1, 22) 15%, rgba(0,0,0,1) 100%);
+    margin: 0;
+    padding: 0;
+  
 }
 
 header{
@@ -11,6 +14,24 @@ header{
 
     background-color: black;
     border-bottom: 1px solid #492e45;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    color: #ffffff;
+    transition: 1s;
+}
+
+h1:hover{
+    text-decoration: underline;
+    transform: scale(110%);
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .menu_icon{
@@ -34,6 +55,12 @@ header{
   
 
 .JukeBOX {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
     font-size: 150%;
     font-family: "Bahnschrift";
     color: #fbd8ff;
@@ -45,6 +72,7 @@ header{
     text-shadow: inset 2px 0px 75px 21px rgb(255, 55, 225);
     padding-bottom: 0%;
     transition: 0.5s;
+    
     
   }
 
