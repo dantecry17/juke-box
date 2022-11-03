@@ -33,7 +33,7 @@ h1{
 
 h1:hover{
     text-decoration: underline;
-    transform: scale(110%);
+    font-size: 110%;
 }
 
 .menu_icon{
@@ -81,7 +81,7 @@ h1:hover{
 }
 
 .publicacao{
-    background-color: #2B292B;
+    background-color: #2b292b8e;
     font-family: 'Montserrat', sans-serif;
     padding: 2%;
     border-right: solid 5px #FF75EA;
@@ -99,6 +99,7 @@ h1:hover{
 
 .identificador_usuario:hover{
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .fotoPerfil_usario{
@@ -153,4 +154,12 @@ h1:hover{
     font-size: 90%;
     margin: 0 0 0 0;
 }
+.checked {
+    color: rgb(216, 53, 176);
+  }
 
+.estrelas-rate{
+    margin-bottom: 2%;
+    margin-top: 0;
+    padding-top: 0;
+}
